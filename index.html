@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <script type="text/javascript" src="http://genie.site44.com/jquery.js"> </script>
+    <script type="text/javascript" src="/jafar.js"> </script>
+  </head>
+
+  <body>
+  </body>
+  <script type="text/javascript">
+   var client = null;
+   
+   $(document).ready(function() {
+       jafar.connect({url:'/_api'}, function(c) {
+           client = c;
+       });
+   });
+  </script>
+</html>
